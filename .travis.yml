@@ -1,2 +1,11 @@
 language: node_js
 node_js: node
+services:
+- mongodb
+deploy:
+  app: mysterious-everglades-37388
+  provider: heroku
+  api_key:
+    secure: VJT5kF/ineqbtAtHoK+e0QU7Ou6UmkmAMnfEhN6+pzfOnbB9cCtRMcaoGav2eN8JZExRjEbMm499UGbiktmKqnGLcaU/05XNuAll13Q0gV7+IBGOtG8ofrrM5JWMfidpSXkCSwtV3ZibgQRR9g0NjS36KSi2fY73cLkH0aXuHQb75e3BoW9BbYW7agAjg1cD2dqpqx+0ovWJuVNUMqpReP2bfba4uc16lfHQU9LEHK7b1Lj4/IpRaFeazPlogd/vlzUIUBLkvu0AI2WaEO2S8usXuMoYuWDfMtSyEAf9369VI7rc8zh8LMrg0nzrcXsEmFSVb4XWtS/C+NN4hDolM9DK/wD4TyuGnTnjW7jF/Fotx+5Qvki/0ZZOJLsVy+TXEuaPIo06s45Ar2A0ldpMzbnhUe5zDO6zw5AYb0+hPlroivFiUpvmW2XmSBcEu4CFsJD8TNnvOy/p/eRTGnSedGys/JbAzxFwljA3pYNh3OGek0jHSCFXf7MIp86t7tnpwJeC357MDORSrKg9O9SCJo5tlNiylsrgBTi3t9n6Iq0gDyYJZ6v2jpCqCbH5a5RgaL4WL7xdCpgMFjNod8+ecNO+IpFDxeTsX3SnAorMWxJEcYuR9lY5Q1tdnnIih95o567A/Xl3pBOZn5xZS4HOmr8D6XIVTd99FbRCmc64Bb0=
+  on:
+    repo: justinmcnary/testBlog
